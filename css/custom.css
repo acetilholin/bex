@@ -23,9 +23,16 @@ html {
 }
 .scroll-icon {
     position: absolute;
+    animation-duration: 3s;
     bottom: 5%;
     left: 47%;
     opacity: 0.5;
+}
+.solid {
+    transition: background-color 2s ease 0s;
+}
+.trans {
+    transition: background-color 2s ease 0s;
 }
 .box {
     padding: 40px 10px !important;
@@ -39,6 +46,36 @@ html {
 }
 .spacing {
     padding-bottom: 1rem;
+}
+
+.section-contact {
+    position: relative;
+}
+
+.section-contact .card-panel {
+    position: relative;
+    z-index: 1;
+}
+
+#googlemap {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.carousel .indicators .indicator-item {
+    background-color: #0D47A1 !important;
+    height: 12px !important;
+    width: 12px !important;
+    margin: -5px 4px !important;
+}
+.card-title {
+    padding: 1rem !important;
+}
+.space-top {
+    padding-top: 2rem;
 }
 
 /* media optimization */
