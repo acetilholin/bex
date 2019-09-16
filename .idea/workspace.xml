@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2a58a46-5e88-4ead-ac97-dc9dfe546532" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -67,7 +66,8 @@
       <workItem from="1568221068387" duration="7628000" />
       <workItem from="1568313941453" duration="31000" />
       <workItem from="1568314081366" duration="2203000" />
-      <workItem from="1568550021065" duration="249000" />
+      <workItem from="1568550021065" duration="2011000" />
+      <workItem from="1568633843173" duration="871000" />
     </task>
     <servers />
   </component>
@@ -79,7 +79,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

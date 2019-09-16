@@ -312,16 +312,16 @@
         </h3>
         <div class="row">
             <div class="col s12 m3">
-                <img  class="materialboxed responsive-img" src="img/gallery/p1.jpg" alt="">
+                <img class="materialboxed responsive-img" src="img/gallery/p1.jpg" alt="">
             </div>
             <div class="col s12 m3">
                 <img  class="materialboxed responsive-img" src="img/gallery/p2.jpg" alt="">
             </div>
             <div class="col s12 m3">
-                <img  class="materialboxed responsive-img" src="img/gallery/p3.jpg" alt="">
+                <img class="materialboxed responsive-img" src="img/gallery/p3.jpg" alt="">
             </div>
             <div class="col s12 m3">
-                <img  class="materialboxed responsive-img" src="img/gallery/p4.jpg" alt="">
+                <img class="materialboxed responsive-img" src="img/gallery/p4.jpg" alt="">
             </div>
         </div>
         <div class="row">
@@ -329,13 +329,13 @@
                 <img  class="materialboxed responsive-img" src="img/gallery/p5.jpg" alt="">
             </div>
             <div class="col s12 m3">
-                <img  class="materialboxed responsive-img" src="img/gallery/p6.jpg" alt="">
+                <img class="materialboxed responsive-img" src="img/gallery/p6.jpg" alt="">
             </div>
             <div class="col s12 m3">
                 <img  class="materialboxed responsive-img" src="img/gallery/p7.jpg" alt="">
             </div>
             <div class="col s12 m3">
-                <img  class="materialboxed responsive-img" src="img/gallery/p8.jpg" alt="">
+                <img class="materialboxed responsive-img" src="img/gallery/p8.jpg" alt="">
             </div>
         </div>
     </div>
@@ -348,8 +348,8 @@
             <div class="col l6 s12">
                 <h5>Standort</h5>
                 <p>Bex Baugesellschaft m.b.H.<br>
-                    Hedwiggasse 4,<br>
-                    1020Wien
+                    Hedwiggasse 4/26,<br>
+                    1020 Wien
                 </p>
 
             </div>
@@ -466,7 +466,7 @@
         });
     });
 
-    const position = [48.217619, 16.3914621];
+    const position = [48.216274, 16.3915678];
     const centerPosition = [48.2169578, 16.4230718];
 
     function mapsInit() {
@@ -484,10 +484,10 @@
         };
 
         map = new google.maps.Map(document.getElementById('googlemap'), mapOptions);
-
         marker = new google.maps.Marker({
             position: latLng,
             map: map,
+            title: 'Hedwiggasse 4/26, 1020 Wien',
             draggable: false,
             animation: google.maps.Animation.DROP
         });
