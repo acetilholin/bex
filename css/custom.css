@@ -1,14 +1,25 @@
 html {
     font-family: 'Montserrat', sans-serif;
 }
+
+@font-face {
+    font-family: Geometric;
+    src: url(../fonts/geometric/geometric.otf);
+}
+
+.dark-blue {
+    background-color: #00589C;
+}
+
 .main-header {
     background-size: cover;
-    background: url(../img/cover.jpg) center;
+    background: url(../img/cover2.jpg) center;
     height: 100vh;
     min-height: 600px;
     color: white;
     position: relative;
 }
+
 .primary-overlay {
     background: rgba(63, 57, 77, 0.55);
     position: absolute;
@@ -18,9 +29,11 @@ html {
     height: 100%;
     overflow: hidden;
 }
+
 .main-header .showcase {
     padding-top: 110px;
 }
+
 .scroll-icon {
     position: absolute;
     animation-duration: 3s;
@@ -28,22 +41,28 @@ html {
     left: 47%;
     opacity: 0.5;
 }
+
 .solid {
     transition: background-color 2s ease 0s;
 }
+
 .trans {
     transition: background-color 2s ease 0s;
 }
+
 .box {
     padding: 40px 10px !important;
     height: 53vh;
 }
+
 .box h4 {
     padding-bottom: 10px;
 }
+
 .p-size {
     font-size: 16px;
 }
+
 .spacing {
     padding-bottom: 1rem;
 }
@@ -65,21 +84,34 @@ html {
     left: 0;
     z-index: 0;
 }
+
 .carousel .indicators .indicator-item {
     background-color: #0D47A1 !important;
     height: 12px !important;
     width: 12px !important;
     margin: -5px 4px !important;
 }
+
 .card-title {
     padding: 1rem !important;
 }
+
 .space-top {
     padding-top: 2rem;
 }
 
+.logo {
+    height: 60px;
+    width: 60px;
+    margin: 2px 0;
+}
+
+.geometric {
+    font-family: Geometric;
+}
+
 /* media optimization */
-@media(max-width: 600px) {
+@media (max-width: 600px) {
     .main-header {
         height: 50vh;
     }

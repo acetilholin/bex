@@ -26,7 +26,9 @@
             <nav class="transparent">
                 <div class="container">
                     <div class="nav-wrapper">
-                        <a href="#home" class="brand-logo">Bex</a>
+                        <a href="#home" class="brand-logo">
+                            <img src="img/logo.gif" class="logo">
+                        </a>
                         <a href="#" data-activates="mobile-nav" class="button-collapse">
                             <i class="material-icons">menu</i>
                         </a>
@@ -77,9 +79,8 @@
         <div class="showcase container">
             <div class="row">
                 <div class="col s12 main-text">
-                    <h5>Bex Baugesellschaft m.b.H.</h5>
+                    <h5 class="geometric">Bex Baugesellschaft m.b.H.</h5>
                     <h3>Bauausfuehrung und Industriemontage</h3>
-                    <p class="flow-text">Civil Engineering and Industrial Erection</p>
                     <br>
                     <a href="#about" class="white-text">
                         <i class="material-icons medium scroll-icon animated bounce slow infinite">arrow_drop_down_circle</i>
@@ -91,26 +92,26 @@
 </header>
 <section class="section-boxes center">
     <div class="row">
-        <div class="col s12 m6 l3 blue accent-1 white-text box">
+        <div class="col s12 m6 l3 light-blue darken-1 white-text box">
             <i class="fas fa-industry fa-4x"></i>
             <h4>Produktion<br><br><br></h4>
             <p>Die Firmengruppe betreibt in der Slowakei eine Produktionsanlage fur Aluminiumkonstruktionen, -fassaden
                 und -fenster mit angeschlossener Fertigungsanlage für Isolierglas, welche speziell für den
                 osteuropäischen Markt plant und produziert.</p>
         </div>
-        <div class="col s12 m6 l3  blue accent-2 white-text box">
+        <div class="col s12 m6 l3 light-blue darken-2 white-text box">
             <i class="far fa-thumbs-up fa-4x"></i>
             <h4>Ein Unternehmen, auf das Sie bauen können<br><br></h4>
             <p>BEX BAU GMBH ist mit ihrer Firmengruppe seit 1980 weltweit in den Bereichen der Bauausführung und
                 Industriemontage tätig.</p>
         </div>
-        <div class="col s12 m6 l3 blue accent-3 white-text box">
+        <div class="col s12 m6 l3 light-blue darken-3 white-text box">
             <i class="fab fa-whmcs fa-4x"></i>
             <h4>Bauausfuehrung und Industriemontage<br><br></h4>
             <p>Unsere Bau- und Montageleistungen basieren auf einem qualifizierten Mitarbeiterstab von Technikern, Bau-
                 und Montagefachkräften mit entsprechenden Spezialisierungen auf die Bereiche dieser Geschäftsfelder.</p>
         </div>
-        <div class="col s12 m6 l3 blue accent-4 white-text box">
+        <div class="col s12 m6 l3 light-blue darken-4 white-text box">
             <i class="fas fa-hands-helping fa-4x"></i>
             <h4>Drei Jahrzehnte weltweite Zuverlässigkeit</h4>
             <p>Leidenschaftliches Unternehmen mit mehr als drei Jahrzehnten. Niederlassungen und Repräsentanzen bestehen
@@ -458,10 +459,10 @@
         $(window).scroll(function() {
             if($(this).scrollTop() > 300) {
                 $('nav').removeClass('transparent trans');
-                $('nav').addClass('blue-grey darken-5 solid');
+                $('nav').addClass('dark-blue solid');
             } else {
                 $('nav').addClass('transparent trans');
-                $('nav').removeClass('blue-grey darken-5 solid');
+                $('nav').removeClass('dark-blue solid');
             }
         });
     });
