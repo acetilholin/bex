@@ -9,10 +9,15 @@
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/custom.css"/>
 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
     <!-- Animate -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
     <script src="https://kit.fontawesome.com/ed2f07148e.js"></script>
+
+    <script src="js/custom.js"></script>
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -79,8 +84,8 @@
         <div class="showcase container">
             <div class="row">
                 <div class="col s12 main-text">
-                    <h5 class="geometric">Bex Baugesellschaft m.b.H.</h5>
-                    <h3>Bauausfuehrung und Industriemontage</h3>
+                    <h5 class="geometric shadow">Bex Baugesellschaft m.b.H.</h5>
+                    <h3 class="shadow">Bauausfuehrung und Industriemontage</h3>
                     <br>
                     <a href="#about" class="white-text">
                         <i class="material-icons medium scroll-icon animated bounce slow infinite">arrow_drop_down_circle</i>
@@ -157,13 +162,79 @@
         </div>
     </div>
 </section>
-<section id="testimonials" class="section section-testimonials blue white-text center scrollspy">
+
+<section class="section section-testimonial grey lighten-4 height">
+    <div class="container">
+        <div class="row">
+           <div class="col s12">
+               <div class="carousel carousel-slider">
+                    <div class="carousel-item" href="#one!">
+                        <h2 class="center dark-blue-font">Österreich</h2>
+                        <p class="flow-text center">
+                            Wohnhausanlage „Open Up“    - <b>Wien</b><br>
+                            Wohnhausanlage „Wildgarten“ - <b>Wien</b><br>
+                            Gewerbe - und Technologiepark - <b>Kematen</b><br>
+                            Kraftwerk - <b>Kirchbichl</b><br>
+                            Huber Areal BAII GHS Wohnbau - <b>Landeck</b><br>
+                            Wohnanlage „Schichtgründe“ - <b>Wien</b><br>
+                            WA Wohnen am Park, Neue Heimat Tirol - <b>Innsbruck</b><br>
+                            Pädagogische Hochschule - <b>Salzburg</b><br>
+                            Maxi Markt - <b>Ried im Innkreis</b><br>
+                            Neue Mittelschule Enkplatz - <b>Wien</b><br>
+                            Hauptverband Sozialversicherungsträger - <b>Wien</b><br>
+                            Wohnanlage „Florasdorf“ - <b>Wien</b><br>
+                            Wohnanlage „Neutorgasse“ - <b>Wien</b><br>
+                        </p>
+                    </div>
+                   <div class="carousel-item" href="#two!">
+                       <h2 class="center">Deutschland</h2>
+                       <p class="flow-text center">
+                           Projekt    - <b>Stadt</b><br>
+                           Projekt    - <b>Stadt</b><br>
+                           Projekt    - <b>Stadt</b><br>
+                           Projekt    - <b>Stadt</b><br>
+                           Projekt    - <b>Stadt</b><br>
+                           Projekt    - <b>Stadt</b><br>
+                           Projekt    - <b>Stadt</b><br>
+                           Projekt    - <b>Stadt</b><br>
+                           Projekt    - <b>Stadt</b><br>
+                           Projekt    - <b>Stadt</b><br>
+                           Projekt    - <b>Stadt</b><br>
+                           Projekt    - <b>Stadt</b><br>
+                           Projekt    - <b>Stadt</b><br>
+                       </p>
+                   </div>
+                   <div class="carousel-item" href="#three!">
+                       <h2 class="center">Europa</h2>
+                       <p class="flow-text center">
+                           Projekt    - <b>Stadt</b><br>
+                           Projekt    - <b>Stadt</b><br>
+                           Projekt    - <b>Stadt</b><br>
+                           Projekt    - <b>Stadt</b><br>
+                           Projekt    - <b>Stadt</b><br>
+                           Projekt    - <b>Stadt</b><br>
+                           Projekt    - <b>Stadt</b><br>
+                           Projekt    - <b>Stadt</b><br>
+                           Projekt    - <b>Stadt</b><br>
+                           Projekt    - <b>Stadt</b><br>
+                           Projekt    - <b>Stadt</b><br>
+                           Projekt    - <b>Stadt</b><br>
+                           Projekt    - <b>Stadt</b><br>
+                       </p>
+                   </div>
+               </div>
+           </div>
+        </div>
+    </div>
+</section>
+
+<!--<section id="testimonials" class="section section-testimonials blue white-text center scrollspy">
     <div class="container">
         <h3>Referenzen</h3>
         <div class="row">
             <div class="carousel carousel-slider center">
                 <div class="carousel-item" href="#one!" style="cursor: pointer">
-                    <div class="col s12 m6">
+                    <div class="col s12 m5">
                         <div class="card grey lighten-4 black-text z-depth-4">
                             <h4 class="card-title">Österreich</h4>
                             <div class="card-content left-align">
@@ -181,7 +252,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col s12 m6">
+                    <div class="col s12 m5">
                         <div class="card grey lighten-4 black-text z-depth-4">
                             <h4 class="card-title">Deutschland</h4>
                             <div class="card-content left-align">
@@ -274,7 +345,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
 <section id="contact" class="section section-contact center scrollspy">
     <div id="googlemap"></div>
@@ -423,77 +494,6 @@
         <a href="#!" class="modal-close waves-effect waves-green btn-flat">Zustimmen</a>
     </div>
 </div>
-
-<!--Import jQuery before materialize.js-->
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="js/materialize.min.js"></script>
-<script>
-
-    $(document).ready(function(){
-        $('#disclaimer').modal();
-        $('#impressum').modal();
-    });
-
-    $(document).ready(function(){
-        $('.carousel').carousel({
-            indicators: true,
-            fullWidth: false
-        });
-    });
-
-    $(document).ready(function (listener) {
-
-        $('.button-collapse').sideNav();
-
-        $('.scrollspy').scrollSpy();
-
-        const options = [
-            {
-                selector: '.main-text', offset: 0, callback: function (el) {
-                    Materialize.fadeInImage($(el));
-                }
-            }
-        ];
-        Materialize.scrollFire(options);
-
-        $(window).scroll(function() {
-            if($(this).scrollTop() > 300) {
-                $('nav').removeClass('transparent trans');
-                $('nav').addClass('dark-blue solid');
-            } else {
-                $('nav').addClass('transparent trans');
-                $('nav').removeClass('dark-blue solid');
-            }
-        });
-    });
-
-    const position = [48.216274, 16.3915678];
-    const centerPosition = [48.2169578, 16.4230718];
-
-    function mapsInit() {
-
-        const latLng = new google.maps.LatLng(position[0], position[1]);
-        const centerLatLng = new google.maps.LatLng(centerPosition[0], centerPosition[1]);
-
-
-        const mapOptions = {
-            zoom: 14,
-            streetViewControl: false,
-            scaleControl: true,
-            mapTypeId: google.maps.MapTypeId.ROADMAP,
-            center: centerLatLng
-        };
-
-        map = new google.maps.Map(document.getElementById('googlemap'), mapOptions);
-        marker = new google.maps.Marker({
-            position: latLng,
-            map: map,
-            title: 'Hedwiggasse 4/26, 1020 Wien',
-            draggable: false,
-            animation: google.maps.Animation.DROP
-        });
-    }
-</script>
 </body>
 </html>
 <!-- Google Maps-->

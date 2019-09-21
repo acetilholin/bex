@@ -10,6 +10,9 @@ html {
 .dark-blue {
     background-color: #00589C;
 }
+.dark-blue-font {
+    color: #00589C;
+}
 
 .main-header {
     background-size: cover;
@@ -86,7 +89,7 @@ html {
 }
 
 .carousel .indicators .indicator-item {
-    background-color: #0D47A1 !important;
+    background-color: #00589C !important;
     height: 12px !important;
     width: 12px !important;
     margin: -5px 4px !important;
@@ -104,6 +107,17 @@ html {
     height: 60px;
     width: 60px;
     margin: 2px 0;
+}
+
+.height {
+    height: 500px !important;
+}
+
+.carousel.carousel-item.  {
+    height: 150px !important;
+}
+.shadow {
+    text-shadow: .2rem .5rem .8rem black;
 }
 
 .geometric {
