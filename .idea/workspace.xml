@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a2a58a46-5e88-4ead-ac97-dc9dfe546532" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bluesky" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../chat" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -75,7 +74,8 @@
       <workItem from="1568918002527" duration="4920000" />
       <workItem from="1569003038485" duration="40000" />
       <workItem from="1569005156908" duration="2749000" />
-      <workItem from="1569086542771" duration="6539000" />
+      <workItem from="1569086542771" duration="6814000" />
+      <workItem from="1569168043772" duration="16000" />
     </task>
     <servers />
   </component>

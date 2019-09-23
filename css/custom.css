@@ -3,13 +3,35 @@ html {
 }
 
 @font-face {
-    font-family: Geometric;
-    src: url(../fonts/geometric/geometric.otf);
+    font-family: "Archivo Black";
+    @import url('https://fonts.googleapis.com/css?family=Archivo+Black&display=swap');
 }
 
 .dark-blue {
     background-color: #00589C;
 }
+.dark-blue-lighten-1 {
+    background-color: #006aaf;
+}
+.dark-blue-lighten-2 {
+    background-color: #007cc3;
+}
+.dark-blue-lighten-3 {
+    background-color: #008ed6;
+}
+
+.dark-blue-lighten-4 {
+    background-color: #0071ba;
+}
+
+.dark-blue-lighten-5 {
+    background-color: #008bd6;
+}
+
+.dark-blue-lighten-6 {
+    background-color: #00a7f6;
+}
+
 .dark-blue-font {
     color: #00589C;
 }
@@ -24,7 +46,7 @@ html {
 }
 
 .primary-overlay {
-    background: rgba(63, 57, 77, 0.55);
+    background: rgba(63, 57, 77, 0.65);
     position: absolute;
     top: 0;
     left: 0;
@@ -116,12 +138,10 @@ html {
 .carousel.carousel-item.  {
     height: 150px !important;
 }
-.shadow {
-    text-shadow: .2rem .5rem .8rem black;
-}
 
-.geometric {
-    font-family: Geometric;
+.archivo {
+    font-family: 'Archivo Black', sans-serif;
+    color: black;
 }
 
 /* media optimization */
