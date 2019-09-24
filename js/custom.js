@@ -4,6 +4,10 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+    $('.tooltipped').tooltip();
+});
+
+$(document).ready(function(){
     $('.carousel').carousel({
         indicators: true,
         fullWidth: true,
