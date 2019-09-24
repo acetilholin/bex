@@ -100,6 +100,9 @@ html {
     position: relative;
     z-index: 1;
 }
+#location {
+    height: 500px;
+}
 
 #googlemap {
     position: absolute;
@@ -141,7 +144,7 @@ html {
 
 .archivo {
     font-family: 'Archivo Black', sans-serif;
-    color: black;
+    color: white;
 }
 
 /* media optimization */
