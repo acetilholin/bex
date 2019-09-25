@@ -135,7 +135,7 @@ html {
 }
 
 .height {
-    height: 500px !important;
+    height: 450px !important;
 }
 
 .carousel.carousel-item.  {
@@ -145,6 +145,49 @@ html {
 .archivo {
     font-family: 'Archivo Black', sans-serif;
     color: white;
+}
+.left-padding {
+    padding-left: 0 !important;
+}
+.spacing-gallery {
+    margin-bottom: 1.5rem !important;
+}
+
+.section-space {
+    margin-top: 1.5rem;
+}
+
+
+/* cards */
+.card-container {
+    position: relative;
+    margin: 10px auto;
+    width: 400px;
+    height: 350px;
+    z-index: 1;
+}
+.card-rotate {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s linear;
+}
+.card-container:hover .card-rotate {
+    transform: rotateY(180deg);
+}
+.face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: white;
+}
+.face.back {
+    display: block;
+    transform: rotateY(180deg);
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
 }
 
 /* media optimization */
