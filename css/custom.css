@@ -133,11 +133,6 @@ html {
     width: 60px;
     margin: 2px 0;
 }
-
-.height {
-    height: 450px !important;
-}
-
 .carousel.carousel-item.  {
     height: 150px !important;
 }
@@ -157,13 +152,17 @@ html {
     margin-top: 1.5rem;
 }
 
+.page-footer-color {
+    background-color: #003973;
+}
+
 
 /* cards */
 .card-container {
     position: relative;
     margin: 10px auto;
-    width: 400px;
-    height: 350px;
+    width: 530px;
+    height: 450px;
     z-index: 1;
 }
 .card-rotate {
@@ -187,7 +186,9 @@ html {
     transform: rotateY(180deg);
     box-sizing: border-box;
     padding: 10px;
-    text-align: center;
+}
+.date {
+    color: #757575;
 }
 
 /* media optimization */
