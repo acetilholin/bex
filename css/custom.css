@@ -156,6 +156,17 @@ html {
     background-color: #003973;
 }
 
+/* animation */
+.os-animation{
+    opacity: 0;
+    margin: 0!important;
+    max-width: 100%;
+}
+.os-animation.animated {
+    opacity: 1;
+}
+
+
 
 /* cards */
 .card-container {

@@ -30,6 +30,9 @@ $(document).ready(function (listener) {
             }
         }
     ];
+
+
+
     Materialize.scrollFire(options);
 
     $(window).scroll(function() {
