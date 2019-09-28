@@ -74,7 +74,9 @@ html {
 .trans {
     transition: background-color 2s ease 0s;
 }
-
+.h3-below-landing {
+    margin-top: 0; padding-top: 1.46rem
+}
 .box {
     padding: 40px 10px !important;
     height: 53vh;
@@ -90,6 +92,9 @@ html {
 
 .spacing {
     padding-bottom: 1rem;
+}
+.negative-margin {
+    margin-top: -2rem !important;
 }
 
 .section-contact {
@@ -152,8 +157,15 @@ html {
     margin-top: 1.5rem;
 }
 
-.page-footer-color {
+.footer-info-color {
     background-color: #003973;
+}
+.footer-bottom-color {
+   /* background-color: #002145;*/
+    background-color: #376d87 !important;
+}
+.offset-top {
+    margin-top: 1rem;
 }
 
 /* animation */
