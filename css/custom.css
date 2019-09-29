@@ -177,7 +177,9 @@ html {
     opacity: 1;
 }
 
-
+ul.dropdown-content.select-dropdown li span {
+    color: #000;
+}
 
 /* cards */
 .card-container {

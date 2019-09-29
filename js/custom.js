@@ -9,6 +9,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $('select').material_select();
+    $(".dropdown-content>li>a").css("color", themeColor);
 });
 
 $(document).ready(function(){
