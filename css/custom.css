@@ -35,6 +35,9 @@ html {
 .dark-blue-font {
     color: #00589C;
 }
+.menu-color {
+    color: #295570 !important;
+}
 
 .main-header {
     background-size: cover;
@@ -157,12 +160,8 @@ html {
     margin-top: 1.5rem;
 }
 
-.footer-info-color {
-    background-color: #003973;
-}
-.footer-bottom-color {
-   /* background-color: #002145;*/
-    background-color: #376d87 !important;
+.footer-color {
+    background-color: #295570 !important;
 }
 .offset-top {
     margin-top: 1rem;
@@ -212,6 +211,13 @@ html {
 }
 .date {
     color: #757575;
+}
+.card-left {
+    width: 80%; float: left;
+}
+.card-right {
+    width: 20%; float: left;
+    font-weight: bold;
 }
 
 /* media optimization */
