@@ -1,3 +1,6 @@
+/*
+base color: #295570
+*/
 html {
     font-family: 'Montserrat', sans-serif;
 }
@@ -35,8 +38,11 @@ html {
 .dark-blue-font {
     color: #00589C;
 }
-.menu-color {
-    color: #295570 !important;
+.menu-color1 {
+    color: white;
+}
+.menu-color2 {
+    color: lightgray;
 }
 
 .main-header {
@@ -197,6 +203,9 @@ ul.dropdown-content.select-dropdown li span {
 }
 .card-container:hover .card-rotate {
     transform: rotateY(180deg);
+}
+.face.front{
+    background-color:  #295570;
 }
 .face {
     position: absolute;
