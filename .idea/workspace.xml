@@ -3,25 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a2a58a46-5e88-4ead-ac97-dc9dfe546532" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/construction.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cover.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/p1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery/p1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/p10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/p11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/p12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/p13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/p14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/p15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/p16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/p2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery/p2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/p3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery/p3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/p4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery/p4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/p5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery/p5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/p6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery/p6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/p7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery/p7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/p8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery/p8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/p9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/team.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -108,7 +90,7 @@
       <workItem from="1569667327810" duration="357000" />
       <workItem from="1569759757012" duration="3541000" />
       <workItem from="1569834899750" duration="3523000" />
-      <workItem from="1569840621519" duration="5060000" />
+      <workItem from="1569840621519" duration="8025000" />
     </task>
     <servers />
   </component>
