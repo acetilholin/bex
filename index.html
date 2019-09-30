@@ -142,7 +142,7 @@
                <div class="card-container">
                    <div class="card-rotate card z-depth-1">
                        <div class="front face card-content valign-wrapper">
-                           <h5 class="menu-color1" style="margin:auto">Referenzen</h5>
+                           <h5 class="ref-title" style="margin:auto">Referenzen</h5>
                        </div>
                        <div class="back face">
                             <p>
@@ -173,7 +173,7 @@
                <div class="card-container">
                    <div class="card-rotate card z-depth-1">
                        <div class="front face card-content valign-wrapper">
-                           <h5 class="menu-color2" style="margin:auto">Referenzen</h5>
+                           <h5 class="ref-title" style="margin:auto">Referenzen</h5>
                        </div>
                        <div class="back face">
                            <p>
@@ -267,7 +267,7 @@
                         <textarea class="materialize-textarea" id="message" placeholder="Nachricht"></textarea>
                         <label for="message">Nachricht</label>
                     </div>
-                    <input type="submit" value="Senden" class="btn blue-grey darken-4">
+                    <input type="submit" value="Senden" class="btn button-base-color">
                 </div>
             </div>
         </div>
@@ -286,13 +286,16 @@
                 </p>
             </div>
             <div class="col 2 offset-s6">
-                <h5 class="white-text">Links</h5>
+                <h5 class="white-text"><br></h5>
                 <ul>
                     <li>
-                        <a class="modal-trigger white-text" id="modal1" href="#disclaimer">Disclaimer</a>
+                        <a class="modal-trigger white-text" id="modal3" href="#datenschutz">Datenschutz</a>
                     </li>
                     <li>
                         <a class="modal-trigger white-text" id="modal2" href="#impressum">Impressum</a>
+                    </li>
+                    <li>
+                        <a class="modal-trigger white-text" id="modal1" href="#disclaimer">Disclaimer</a>
                     </li>
                 </ul>
             </div>
@@ -315,7 +318,7 @@
     </div>
 </footer>
 
-<!-- Modal Structure -->
+<!-- modal disclaimer -->
 <div id="disclaimer" class="modal">
     <div class="modal-content">
         <h5 class="center-align">Disclaimer</h5>
@@ -338,10 +341,10 @@
         <p>Dieses Web-Site enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei bekannt werden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.</p>
     </div>
     <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Zustimmen</a>
+        <a href="#!" class="modal-close button-base-color btn-flat">Zustimmen</a>
     </div>
 </div>
-<!-- Modal Structure -->
+<!-- modal impressum -->
 <div id="impressum" class="modal">
     <div class="modal-content">
         <h5 class="center-align">Impressum & Offenlegung gemäß § 25 des Mediengesetzes</h5>
@@ -358,7 +361,32 @@
         </p>
     </div>
     <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Zustimmen</a>
+        <a href="#!" class="modal-close button-base-color btn-flat">Zustimmen</a>
+    </div>
+</div>
+<!-- modal datenschutz -->
+<div id="datenschutz" class="modal">
+    <div class="modal-content">
+        <h5 class="center-align">Datenschutzerklärung</h5>
+        <p>Wir verarbeiten Ihre Daten ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO).</p>
+        <p>
+            Wenn Sie per Formular auf der Website oder per E-Mail Kontakt mit uns aufnehmen, werden Ihre angegebenen Daten zwecks Bearbeitung Ihrer Anfrage und für den Fall von Anschlussfragen sechs Monate bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
+        </p>
+        <p>
+            Wir weisen darauf hin, dass zum Zweck der einfacheren Kontaktaufnahme Ihr Name, Anschrift und E-Mail Adresse gespeichert werden. Eine Datenübermittlung an Dritte erfolgt nicht.
+        </p>
+        <p>
+            Ihnen stehen bezüglich Ihrer bei uns gespeicherten Daten grundsätzlich die Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit, Widerruf und Widerspruch zu. Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt oder Ihre datenschutzrechtlichen Ansprüche sonst in einer Weise verletzt worden sind, können Sie sich bei der uns <a href="mailto:office@bex.at" class="base-color-font">office@bex.at</a>  oder der Datenschutzbehörde beschweren.
+        </p>
+        <p>
+            Unseren Datenschutzbeauftragten erreichen Sie unter<br>
+            01/218 38 00 – 15<br>
+            <a href="mailto:office@bex.at" class="base-color-font">office@bex.at</a>
+        </p>
+
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-close button-base-color btn-flat">Zustimmen</a>
     </div>
 </div>
 </body>

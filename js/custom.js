@@ -1,6 +1,7 @@
 $(document).ready(function(){
     $('#disclaimer').modal();
     $('#impressum').modal();
+    $('#datenschutz').modal();
 });
 
 $(document).ready(function(){

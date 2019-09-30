@@ -1,6 +1,7 @@
 /*
 base color: #295570
 */
+
 html {
     font-family: 'Montserrat', sans-serif;
 }
@@ -38,11 +39,15 @@ html {
 .dark-blue-font {
     color: #00589C;
 }
-.menu-color1 {
+.ref-title {
     color: white;
 }
-.menu-color2 {
-    color: lightgray;
+.base-color-font {
+    color: #295570 !important;
+}
+.button-base-color {
+    background-color: #295570 !important;
+    color: white;
 }
 
 .main-header {
@@ -173,6 +178,21 @@ html {
     margin-top: 1rem;
 }
 
+/* form */
+
+.input-field input[type=email]:focus + label, .materialize-textarea:focus:not([readonly]) + label{
+    color: black !important;
+}
+.input-field input[type=text]:focus + label, .materialize-textarea:focus:not([readonly]) + label{
+    color: black !important;
+}
+.input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid black !important;
+}
+.input-field input[type=email]:focus, .materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid black !important;
+}
+
 /* animation */
 .os-animation{
     opacity: 0;
@@ -205,7 +225,8 @@ ul.dropdown-content.select-dropdown li span {
     transform: rotateY(180deg);
 }
 .face.front{
-    background-color:  #295570;
+   /* background-color:  #295570;*/
+    background-color: #2c7f9b;
 }
 .face {
     position: absolute;
