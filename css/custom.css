@@ -11,6 +11,14 @@ html {
     @import url('https://fonts.googleapis.com/css?family=Archivo+Black&display=swap');
 }
 
+.base-color-1 {
+    background-color: #005F88;
+}
+
+.base-color-2 {
+    background-color: #016894;
+}
+
 .dark-blue {
     background-color: #295570;
 }
@@ -46,7 +54,7 @@ html {
     color: #295570 !important;
 }
 .button-base-color {
-    background-color: #295570 !important;
+    background-color: #005F88 !important;
     color: white;
 }
 
@@ -60,7 +68,7 @@ html {
 }
 
 .primary-overlay {
-    
+    background: rgba(63, 57, 77, 0.65);
     position: absolute;
     top: 0;
     left: 0;
@@ -172,7 +180,8 @@ html {
 }
 
 .footer-color {
-    background-color: #295570 !important;
+  /*  background-color: #295570 !important;*/
+    background-color: #004668 !important;
 }
 .offset-top {
     margin-top: 1rem;
@@ -231,7 +240,8 @@ ul.dropdown-content.select-dropdown li span {
     transform: rotateY(180deg);
 }
 .face.front{
-    background-color: #2c7f9b;
+    /*background-color: #2c7f9b;*/
+    background-color:  #005F88;
 }
 .face {
     position: absolute;

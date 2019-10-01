@@ -40,10 +40,10 @@ $(document).ready(function (listener) {
     $(window).scroll(function() {
         if($(this).scrollTop() > 300) {
             $('nav').removeClass('transparent trans');
-            $('nav').addClass('dark-blue solid');
+            $('nav').addClass('base-color-1 solid');  /* dark-blue solid */
         } else {
             $('nav').addClass('transparent trans');
-            $('nav').removeClass('dark-blue solid');
+            $('nav').removeClass('base-color-1 solid'); /* dark blue solid */
         }
     });
 });
