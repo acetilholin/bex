@@ -12,7 +12,7 @@ html {
 }
 
 .base-color-1 {
-    background-color: #005F88;
+    background-color: #0079A8;
 }
 
 .base-color-2 {
@@ -54,13 +54,18 @@ html {
     color: #295570 !important;
 }
 .button-base-color {
-    background-color: #005F88 !important;
+    background-color: #0079A8 !important;
     color: white;
+}
+
+/* navbar fixed color */
+.fixed-color {
+    background-color: #0079A8;
 }
 
 .main-header {
     background-size: cover;
-    background: url(../img/cover3.jpg) center;
+    background: url(../img/cover2.jpg) center;
     height: 100vh;
     min-height: 600px;
     color: white;
@@ -68,6 +73,7 @@ html {
 }
 
 .primary-overlay {
+    background: rgba(63, 57, 77, 0.3);
     position: absolute;
     top: 0;
     left: 0;
@@ -180,7 +186,7 @@ html {
 
 .footer-color {
   /*  background-color: #295570 !important;*/
-    background-color: #004668 !important;
+    background-color: #005a87 !important;
 }
 .offset-top {
     margin-top: 1rem;
@@ -240,7 +246,7 @@ ul.dropdown-content.select-dropdown li span {
 }
 .face.front{
     /*background-color: #2c7f9b;*/
-    background-color:  #005F88;
+    background-color:  #0079A8;
 }
 .face {
     position: absolute;

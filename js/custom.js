@@ -37,15 +37,15 @@ $(document).ready(function (listener) {
 
     Materialize.scrollFire(options);
 
-    $(window).scroll(function() {
+  /*  $(window).scroll(function() {
         if($(this).scrollTop() > 300) {
             $('nav').removeClass('transparent trans');
-            $('nav').addClass('base-color-1 solid');  /* dark-blue solid */
+            $('nav').addClass('base-color-1 solid');  /!* dark-blue solid *!/
         } else {
             $('nav').addClass('transparent trans');
-            $('nav').removeClass('base-color-1 solid'); /* dark blue solid */
+            $('nav').removeClass('base-color-1 solid'); /!* dark blue solid *!/
         }
-    });
+    });*/
 });
 
 const position = [48.216274, 16.3915678];
