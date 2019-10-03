@@ -10,7 +10,6 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $('select').material_select();
-    $(".dropdown-content>li>a").css("color", themeColor);
 });
 
 $(document).ready(function(){
@@ -19,12 +18,22 @@ $(document).ready(function(){
     });
 });
 
+$(function () {
+
+    $("#emailForm").submit(function (e) {
+        e.preventDefault();
+        var form_data = $(this).serialize();
+        $.ajax({type: "POST", url: "sendEmail.php", dataType: "json", data: form_data}).done(function (data) {
+            Materialize.toast('Nachricht gesendet :)', 4000);
+        }).fail(function (data) {
+            Materialize.toast('Nachricht nicht gesendet!', 4000);
+        });
+    });
+});
+
 $(document).ready(function (listener) {
-
     $('.button-collapse').sideNav();
-
     $('.scrollspy').scrollSpy();
-
     const options = [
         {
             selector: '.main-text', offset: 0, callback: function (el) {

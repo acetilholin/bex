@@ -249,28 +249,30 @@
         <div class="row">
             <div class="col s12 m6 offset-m6">
                 <div class="card-panel z-depth-5">
-                    <h4>Kontaktiere uns</h4>
-                    <div class="input-field">
-                        <input type="text" id="name" placeholder="Name">
-                        <label for="name">Name</label>
-                    </div>
-                    <div class="input-field">
-                        <input type="email" id="email" placeholder="Email">
-                        <label for="email">Email</label>
-                    </div>
-                    <div class="input-field">
-                        <select>
-                            <option value="" disabled selected>Bitte auswählen</option>
-                            <option value="1">office@bex.at (Verwaltung, Rechnungswesen)</option>
-                            <option value="2">rw@bex.at (Buchhaltung)</option>
-                        </select>
-                        <label>Gesendet an</label>
-                    </div>
-                    <div class="input-field">
-                        <textarea class="materialize-textarea" id="message" placeholder="Nachricht"></textarea>
-                        <label for="message">Nachricht</label>
-                    </div>
-                    <input type="submit" value="Senden" class="btn button-base-color">
+                    <form id="emailForm">
+                        <h4>Kontaktiere uns</h4>
+                        <div class="input-field">
+                            <input type="text" id="name" name="fullName" placeholder="Name">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="email" id="email" placeholder="Email" name="email">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input-field">
+                            <select name="recipient">
+                                <option value="" disabled selected>Bitte auswählen</option>
+                                <option value="office@bex.at">office@bex.at (Verwaltung, Rechnungswesen)</option>
+                                <option value="rw@bex.at">rw@bex.at (Buchhaltung)</option>
+                            </select>
+                            <label>Gesendet an</label>
+                        </div>
+                        <div class="input-field">
+                            <textarea class="materialize-textarea" id="message" name="message" placeholder="Nachricht"></textarea>
+                            <label for="message">Nachricht</label>
+                        </div>
+                        <input type="submit" value="Senden" class="btn button-base-color">
+                    </form>
                 </div>
             </div>
         </div>
