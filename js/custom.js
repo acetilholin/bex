@@ -46,15 +46,13 @@ $(document).ready(function (listener) {
 
     Materialize.scrollFire(options);
 
-  /*  $(window).scroll(function() {
-        if($(this).scrollTop() > 300) {
-            $('nav').removeClass('transparent trans');
-            $('nav').addClass('base-color-1 solid');  /!* dark-blue solid *!/
+      $(window).scroll(function() {
+     //   var x = document.getElementsByClassName("navbar ul li a");
+        if($(this).scrollTop() > 50) {
+            $("#logo-picture").addClass('logo-size');
         } else {
-            $('nav').addClass('transparent trans');
-            $('nav').removeClass('base-color-1 solid'); /!* dark blue solid *!/
         }
-    });*/
+    });
 });
 
 const position = [48.216274, 16.3915678];

@@ -67,6 +67,11 @@ html {
     background-color: #0079A8;
 }
 
+.logo-picture {
+    height: 90px;
+    width: 90px;
+}
+
 .main-header {
     background-size: cover;
     background: url(../img/cover2.jpg) center;
