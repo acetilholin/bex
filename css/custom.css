@@ -72,17 +72,17 @@ html {
     transition: transform 0.4s;
 }
 nav {
-    height: 5rem;
+    height: 4.9rem;
     transition: all 400ms ease-in-out;
 }
 .shrink-image {
     -webkit-transition: -webkit-transform 0.4s;
     transition: transform 0.4s;
-    transform: scale(0.8);
+    transform: scale(0.81);
 }
 
 nav ul li a {
-    font-size: 1.1rem;
+    font-size: 1.13rem;
     transition: all 400ms ease-in-out;
 }
 nav.shrink {
