@@ -79,7 +79,6 @@ nav {
     -webkit-transition: -webkit-transform 0.4s;
     transition: transform 0.4s;
     transform: scale(0.8);
-  
 }
 
 nav ul li a {
@@ -98,13 +97,6 @@ nav ul li a:hover {
 nav.shrink a {
     font-size: 1rem;
 }
-
-nav.shrink .navbar-brand {
-    font-size: 25px;
-    height:auto;
-}
-
-
 /* navbar shrink */
 
 
