@@ -62,14 +62,61 @@ html {
     color: white;
 }
 
+
+
+/* navbar shrink*/
+
+.logo {
+    height: 70px;
+    width: 70px;
+    transition: transform 0.4s;
+}
+nav {
+    height: 5rem;
+    transition: all 400ms ease-in-out;
+}
+.shrink-image {
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: transform 0.4s;
+    transform: scale(0.8);
+  
+}
+
+nav ul li a {
+    font-size: 1.1rem;
+    transition: all 400ms ease-in-out;
+}
+nav.shrink {
+    height: 4.3rem;
+    transition: all 400ms ease-in-out;
+}
+nav ul li a:hover {
+    color: black;
+    background-color: transparent;
+}
+
+nav.shrink a {
+    font-size: 1rem;
+}
+
+nav.shrink .navbar-brand {
+    font-size: 25px;
+    height:auto;
+}
+
+
+/* navbar shrink */
+
+
+
+
+
+
+
+
 /* navbar fixed color */
 .fixed-color {
     background-color: #0079A8;
-}
-
-.logo-picture {
-    height: 90px;
-    width: 90px;
 }
 
 .main-header {
@@ -169,11 +216,6 @@ html {
     padding-top: 2rem;
 }
 
-.logo {
-    height: 60px;
-    width: 60px;
-    margin: 2px 0;
-}
 .carousel.carousel-item.  {
     height: 150px !important;
 }

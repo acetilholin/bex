@@ -46,11 +46,13 @@ $(document).ready(function (listener) {
 
     Materialize.scrollFire(options);
 
-      $(window).scroll(function() {
-     //   var x = document.getElementsByClassName("navbar ul li a");
-        if($(this).scrollTop() > 50) {
-            $("#logo-picture").addClass('logo-size');
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('nav').addClass('shrink');
+            $("nav .logo").addClass('shrink-image');
         } else {
+            $('nav').removeClass('shrink');
+            $("nav .logo").removeClass('shrink-image');
         }
     });
 });
