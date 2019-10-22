@@ -62,8 +62,6 @@ html {
     color: white;
 }
 
-
-
 /* navbar shrink*/
 
 .logo {
@@ -98,12 +96,6 @@ nav.shrink a {
     font-size: 1rem;
 }
 /* navbar shrink */
-
-
-
-
-
-
 
 
 /* navbar fixed color */
@@ -319,5 +311,154 @@ ul.dropdown-content.select-dropdown li span {
 @media (max-width: 600px) {
     .main-header {
         height: 50vh;
+    }
+}
+
+/* navbar mobile */
+.mobile-title {
+    color: black;
+    font-size: 1.5rem;
+}
+.mobile-link {
+    color: #0079A8 !important;
+}
+.mobile-link:hover{
+    color: black !important;
+    background: none !important;
+}
+
+@media only screen /* iPad portrait */
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+    .card {
+        max-width: 330px !important;
+    }
+    .logo-mobile {
+        margin-top: -5px !important;
+    }
+    .card-container {
+        width: 100% !important;
+    }
+    .back p {
+        font-size: 12px;
+    }
+    .back .mobile-size {
+        font-size: 9.6px;
+    }
+    .mobile-right {
+       float: left;
+    }
+}
+
+@media only screen /* iPhone 6, 7, & 8 Plus portrait*/
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : portrait) {
+    .card-container {
+        width: 100%;
+    }
+   h3.archivo {
+       font-size: 1.71rem;
+   }
+   h5.archivo {
+       font-size: 1.5rem;
+   }
+   .logo-mobile {
+        margin-top: -5px !important;
+    }
+   .h3-mobile {
+       font-size: 1.7rem;
+   }
+   .text-about {
+       text-align: justify;
+   }
+  .card-rotate {
+      width: 100%;
+  }
+  .mobile-size {
+      font-size: 11px;
+  }
+  .image-mobile-margin {
+      margin-bottom: 2px;
+  }
+}
+@media only screen /* iPhone X portrait */
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait) {
+    .card-container {
+        width: 100%;
+    }
+    .logo-mobile {
+        margin-top: -5px !important;
+    }
+    .text-about {
+        text-align: justify;
+    }
+    h3.archivo {
+        font-size: 1.55rem;
+    }
+    h5.archivo {
+        font-size: 1.4rem;
+    }
+    .h3-mobile {
+        font-size: 1.8rem;
+    }
+    .h5-mobile {
+        font-size: 1.7rem;
+    }
+    .image-mobile-margin {
+        margin-bottom: 2px;
+    }
+    .face.back {
+        font-size: 13px;
+    }
+    .mobile-size {
+        font-size: 10px;
+    }
+    .mobile-size-company {
+        font-size: 13px;
+    }
+}
+@media only screen /* Samsung galaxy S8 portrait */
+and (min-width: 360px)
+and (max-width: 767px)
+and (orientation: portrait) {
+    .card-container {
+        width: 100%;
+    }
+    .logo-mobile {
+        margin-top: -5px !important;
+    }
+    .text-about {
+        text-align: justify;
+    }
+    h3.archivo {
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+    h5.archivo {
+        font-size: 1.4rem;
+        font-weight: 300;
+    }
+    .h3-mobile {
+        font-size: 1.8rem;
+    }
+    .h5-mobile {
+        font-size: 1.7rem;
+    }
+    .image-mobile-margin {
+        margin-bottom: 2px;
+    }
+    .face.back {
+        font-size: 13px;
+    }
+    .mobile-size {
+        font-size: 10px;
+    }
+    .mobile-size-company {
+        font-size: 13px;
     }
 }

@@ -49,10 +49,10 @@ $(document).ready(function (listener) {
     $(window).scroll(function() {
         if ($(document).scrollTop() > 50) {
             $('nav').addClass('shrink');
-            $("nav .logo").addClass('shrink-image');
+            $("nav .logo").addClass('shrink-image logo-mobile');
         } else {
             $('nav').removeClass('shrink');
-            $("nav .logo").removeClass('shrink-image');
+            $("nav .logo").removeClass('shrink-image logo-mobile');
         }
     });
 });
