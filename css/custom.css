@@ -352,6 +352,29 @@ and (orientation : portrait) {
     }
 }
 
+@media only screen  /* laptop L */
+and (min-device-width: 1440px) {
+    .card-container {
+        width: 100%;
+    }
+}
+
+@media only screen  /* iPad landscape */
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 1) {
+    .card-container {
+        width: 100%;
+    }
+    .back p {
+        font-size: 13px;
+    }
+    .back .mobile-size {
+        font-size: 10.5px;
+    }
+}
+
 @media only screen /* iPhone 6, 7, & 8 Plus portrait*/
 and (min-device-width : 414px)
 and (max-device-width : 736px)
@@ -505,3 +528,5 @@ and (orientation: portrait) {
         display: none;
     }
 }
+
+
