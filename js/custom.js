@@ -5,7 +5,15 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $('.tooltipped').tooltip();
+    $('.tooltipped1').tooltip();
+    $('.tooltipped2').tooltip();
+    $('.tooltipped3').tooltip();
+    $('.tooltipped4').tooltip();
+    $('.tooltipped5').tooltip();
+    $('.tooltipped6').tooltip();
+    $('.tooltipped7').tooltip();
+    $('.tooltipped8').tooltip();
+
 });
 
 $(document).ready(function(){

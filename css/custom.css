@@ -67,7 +67,7 @@ html {
 .logo {
     height: 70px;
     width: 70px;
-    transition: transform 0.4s;
+    transition: transform 0.5s;
 }
 nav {
     height: 4.9rem;
@@ -131,7 +131,7 @@ nav.shrink a {
     animation-duration: 3s;
     bottom: 5%;
     left: 47%;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .solid {
@@ -220,7 +220,6 @@ nav.shrink a {
 }
 
 .footer-color {
-  /*  background-color: #295570 !important;*/
     background-color: #005a87 !important;
 }
 .offset-top {
@@ -280,7 +279,6 @@ ul.dropdown-content.select-dropdown li span {
     transform: rotateY(180deg);
 }
 .face.front{
-    /*background-color: #2c7f9b;*/
     background-color:  #0079A8;
 }
 .face {
@@ -349,6 +347,9 @@ and (orientation : portrait) {
     .mobile-right {
        float: left;
     }
+    .scroll-icon {
+        display: none;
+    }
 }
 
 @media only screen /* iPhone 6, 7, & 8 Plus portrait*/
@@ -382,6 +383,9 @@ and (orientation : portrait) {
   .image-mobile-margin {
       margin-bottom: 2px;
   }
+    .text-align {
+        text-align: justify;
+    }
 }
 @media only screen /* iPhone X portrait */
 and (min-device-width : 375px)
@@ -421,7 +425,40 @@ and (orientation : portrait) {
     .mobile-size-company {
         font-size: 13px;
     }
+    .text-align {
+        text-align: justify;
+    }
 }
+
+@media only screen /* iPhone x landscape */
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : landscape) {
+    .card-container {
+        width: 100%;
+    }
+    h3.archivo {
+        font-size: 2.5rem;
+    }
+    .h3-mobile{
+        font-size: 2.3rem;
+    }
+    .text-about {
+        text-align: justify;
+    }
+    .logo-mobile {
+        margin-top: -5px !important;
+    }
+    .face.back {
+        font-size: 13px;
+    }
+    .mobile-size {
+        font-size: 10px;
+    }
+}
+
+
 @media only screen /* Samsung galaxy S8 portrait */
 and (min-width: 360px)
 and (max-width: 767px)
@@ -436,11 +473,11 @@ and (orientation: portrait) {
         text-align: justify;
     }
     h3.archivo {
-        font-size: 1.4rem;
+        font-size: 2rem;
         font-weight: 500;
     }
     h5.archivo {
-        font-size: 1.4rem;
+        font-size: 1.8rem;
         font-weight: 300;
     }
     .h3-mobile {
@@ -460,5 +497,11 @@ and (orientation: portrait) {
     }
     .mobile-size-company {
         font-size: 13px;
+    }
+    .text-align {
+        text-align: justify;
+    }
+    .scroll-icon {
+        display: none;
     }
 }
