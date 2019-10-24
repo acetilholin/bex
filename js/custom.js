@@ -5,25 +5,16 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $('.tooltipped1').tooltip();
-    $('.tooltipped2').tooltip();
-    $('.tooltipped3').tooltip();
-    $('.tooltipped4').tooltip();
-    $('.tooltipped5').tooltip();
-    $('.tooltipped6').tooltip();
-    $('.tooltipped7').tooltip();
-    $('.tooltipped8').tooltip();
+    $('.tooltipped').tooltip();
+    $('.materialboxed').materialbox();
 
+    if (navigator.userAgent.match(/i(Phone)/i) || navigator.userAgent.match(/Android/i)) {
+        $('img').removeClass('materialboxed');
+    }
 });
 
 $(document).ready(function(){
     $('select').material_select();
-});
-
-$(document).ready(function(){
-    $('.carousel').carousel({
-        indicators: true,
-    });
 });
 
 $(function () {
@@ -49,8 +40,6 @@ $(document).ready(function (listener) {
             }
         }
     ];
-
-
 
     Materialize.scrollFire(options);
 
