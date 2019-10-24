@@ -8,7 +8,7 @@ $(document).ready(function(){
     if (navigator.userAgent.match(/i(Phone)/i) || navigator.userAgent.match(/Android/i)) {
         $('img').removeClass('materialboxed');
     } else {
-
+        $('img').addClass('materialboxed');
         $('.materialboxed').materialbox();
     }
     $('.tooltipped').tooltip();
