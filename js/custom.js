@@ -5,12 +5,13 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $('.tooltipped').tooltip();
-    $('.materialboxed').materialbox();
-
     if (navigator.userAgent.match(/i(Phone)/i) || navigator.userAgent.match(/Android/i)) {
         $('img').removeClass('materialboxed');
+    } else {
+
+        $('.materialboxed').materialbox();
     }
+    $('.tooltipped').tooltip();
 });
 
 $(document).ready(function(){
