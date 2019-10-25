@@ -272,11 +272,13 @@ ul.dropdown-content.select-dropdown li span {
 .card-rotate {
     width: 100%;
     height: 100%;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     transition: all 0.5s linear;
 }
 .card-container:hover .card-rotate {
     transform: rotateY(180deg);
+    -webkit-transform: rotateY( 180deg );
 }
 .face.front{
     background-color:  #0079A8;
@@ -290,6 +292,7 @@ ul.dropdown-content.select-dropdown li span {
 }
 .face.back {
     display: block;
+    -webkit-transform: rotateY( 180deg );
     transform: rotateY(180deg);
     box-sizing: border-box;
     padding: 10px;
@@ -374,6 +377,37 @@ and (-webkit-min-device-pixel-ratio: 1) {
         font-size: 10.5px;
     }
 }
+
+@media only screen /* iphone 6,7,8 landscape*/
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : landscape) {
+    .card-container {
+        width: 100%;
+    }
+    .back p {
+        font-size: 11.5px;
+    }
+    .card {
+        width: 290px;
+    }
+    .back .mobile-size {
+        font-size: 9.5px;
+    }
+    .logo-mobile {
+        margin-top: -5px !important;
+    }
+    .landscape-mobile {
+        margin-left: 250px !important;
+    }
+    .landscape {
+        width: 440px !important;
+    }
+    .landscape-oben {
+        width: 100px !important;
+    }
+}
+
 
 @media only screen /* iPhone 6, 7, & 8 Plus portrait*/
 and (min-device-width : 414px)
