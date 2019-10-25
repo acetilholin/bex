@@ -338,15 +338,15 @@ ul.dropdown-content.select-dropdown li span {
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
- /*   .card {
+    .card {
         max-width: 330px !important;
-    }*/
+    }
     .logo-mobile {
         margin-top: -5px !important;
     }
-   /* .card-container {
+    .card-container {
         width: 100% !important;
-    }*/
+    }
     .back p {
         font-size: 12px;
     }
